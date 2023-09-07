@@ -3,3 +3,77 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.overlay:hover .imageScale {
+    transform: scale(1.2);
+    transition: 0.7s;
+  }
+
+
+  .HoverGreyColor {
+    background: rgb(30, 31, 33);
+    background: linear-gradient(0deg, rgba(30, 31, 33, 1) 0%, rgba(0, 0, 0, 0.1516981792717087) 100%);
+  }
+
+
+  .display-layer-second-card {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .overlay:hover .display-layer-second-card {
+    opacity: 1;
+    /* background-color: #0a0a0aa8; */
+  }
+
+  .hoverColor {
+    background-color: rgba(0, 0, 0, 0.72);
+  }
+
+  .element {
+    transform: translateY(0px);
+    transition: 0.5s;
+    overflow: none !important;
+  }
+  
+  .cardElemts {
+    transform: translateY(800px);
+    /* display: none; */
+    transition: 0.7s;
+  }
+  
+  .cardHeader {
+    transform: translateY(250px);
+    transition: 0.5s;
+  }
+  
+  .element:hover .cardHeader {
+    transform: translateY(50px);
+  }
+  
+  .element:hover .cardElemts {
+    transform: translateY(120px);
+    display: block;
+    /* background-color: rgba(0, 0, 0, 0.72); */
+  }
+  
+  .element:hover .primaryHover {
+    background-color: rgba(255, 161, 51, 0);
+  }
+  
+  .element:hover .elementTextCard {
+    transform: translateY(0px);
+  
+  }
+  
+  .elementTextCard {
+    transform: translateY(100px);
+    transition: 0.7s;
+    /* background-color: rgba(255, 161, 51, 0); */
+  }
+  
+
+  .primaryHover {
+    background-color: #4d144e;
+  }
