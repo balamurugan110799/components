@@ -1,6 +1,11 @@
 import React from 'react'
 import Layout from '../layout/Layout'
 import { RiGroupLine } from "react-icons/ri";
+import { HiOutlineBookOpen } from "react-icons/hi";
+
+
+
+
 
 export default function Card() {
     return (
@@ -68,6 +73,65 @@ export default function Card() {
                         </div>
                         <div className=' text-tiny text-[#fff] pt-4'>Lorem ipsum dolor sit amet</div>
                     </div>
+
+
+                   
+                    <div className='group border border-[#eaeaea] rounded-[6px]'>
+                        <div className='  bg-white group p-6  py-6  rounded-[10px]'>
+                            <div className=' h-[40px] w-[40px] center bg-[#57ba71] rounded-[50%]' >
+                                <HiOutlineBookOpen className=' text-[#1e8945] text-h3' />
+                            </div>
+                            <div className=' text-[#57ba71] duration-300   text-h4 pt-4 font-semibold  '>Lorem ipsum</div>
+                            <div className='  text-base pt-2  text-[#424242] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+
+
+                    <div className='group border border-[#eaeaea] rounded-[6px]'>
+                        <div className='  bg-white group p-6  py-6  rounded-[10px]'>
+                            <div className=' h-[40px] w-[40px] center bg-[#57ba71] rounded-[50%]' >
+                                <HiOutlineBookOpen className=' text-[#1e8945] text-h3' />
+                            </div>
+                            <div className=' text-[#57ba71] duration-300   text-h4 pt-4 font-semibold  '>Lorem ipsum</div>
+                            <div className='  text-base pt-2  text-[#424242] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+
+
+                   
+                    <div className='group border border-[#eaeaea] rounded-[6px]'>
+                        <div className='  bg-white group p-6  py-6  rounded-[10px]'>
+                            <div className=' h-[40px] w-[40px] center bg-[#57ba71] rounded-[50%]' >
+                                <HiOutlineBookOpen className=' text-[#1e8945] text-h3' />
+                            </div>
+                            <div className=' text-[#57ba71] duration-300   text-h4 pt-4 font-semibold  '>Lorem ipsum</div>
+                            <div className='  text-base pt-2  text-[#424242] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+
+
+                   
+                    <div className='group border border-[#eaeaea] rounded-[6px]'>
+                        <div className='  bg-white group p-6  py-6  rounded-[10px]'>
+                            <div className=' h-[40px] w-[40px] center bg-[#57ba71] rounded-[50%]' >
+                                <HiOutlineBookOpen className=' text-[#1e8945] text-h3' />
+                            </div>
+                            <div className=' text-[#57ba71] duration-300   text-h4 pt-4 font-semibold  '>Lorem ipsum</div>
+                            <div className='  text-base pt-2 text-[#424242]  '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
