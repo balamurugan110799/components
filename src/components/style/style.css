@@ -77,3 +77,10 @@
   .primaryHover {
     background-color: #4d144e;
   }
+
+  .active {
+    background-color: #e5ebff;
+    color: #1589ee;
+    border-left: 4px solid #1589ee;
+    display: flex;
+  }

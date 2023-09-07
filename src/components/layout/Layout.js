@@ -14,7 +14,7 @@ export default function Layout(props) {
 
                 </div>
 
-                <div className=' col-span-2 px-2'>
+                <div className=' col-span-2 '>
                     <Nav />
                 </div>
                 <div className=' col-span-10 px-2 relative overflow-auto h-[96vh]'>
